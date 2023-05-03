@@ -1,0 +1,381 @@
+{
+  "materials": [
+    {
+      "type": "diffuse",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          0,
+          0,
+          0
+        ]
+      },
+      "emission": {
+        "type": "rgb",
+        "value": [
+          10.0,
+          9.472164511680603,
+          7.987768054008484
+        ]
+      },
+      "name": "back_lamp"
+    },
+    {
+      "type": "diffuse",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          0.005603948142379522,
+          0.005603948142379522,
+          0.005603948142379522
+        ]
+      },
+      "name": "Black_shiny"
+    },
+    {
+      "type": "diffuse",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          0,
+          0,
+          0
+        ]
+      },
+      "emission": {
+        "type": "rgb",
+        "value": [
+          3.0,
+          2.5118494033813477,
+          2.0461025834083557
+        ]
+      },
+      "name": "downer_light"
+    },
+    {
+      "type": "diffuse",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          0.800000011920929,
+          0.800000011920929,
+          0.800000011920929
+        ]
+      },
+      "name": "floor_wood"
+    },
+    {
+      "type": "diffuse",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          0,
+          0,
+          0
+        ]
+      },
+      "emission": {
+        "type": "rgb",
+        "value": [
+          2.0,
+          1.8521398305892944,
+          1.7393563985824585
+        ]
+      },
+      "name": "front_lamp"
+    },
+    {
+      "type": "generic",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          0.800000011920929,
+          0.800000011920929,
+          0.800000011920929
+        ]
+      },
+      "roughness": 0.12962964177131653,
+      "anisotropic": 0.0,
+      "IOR": 1.4500000476837158,
+      "metallic": 0.0,
+      "specularTransmittance": 1.0,
+      "specularTint": 0.0,
+      "name": "Glass_green"
+    },
+    {
+      "type": "diffuse",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          0.800000011920929,
+          0.800000011920929,
+          0.800000011920929
+        ]
+      },
+      "name": "grass"
+    },
+    {
+      "type": "diffuse",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          0.800000011920929,
+          0.800000011920929,
+          0.800000011920929
+        ]
+      },
+      "name": "Material.001"
+    },
+    {
+      "type": "diffuse",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          0.800000011920929,
+          0.800000011920929,
+          0.800000011920929
+        ]
+      },
+      "name": "Material.002"
+    },
+    {
+      "type": "generic",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          0.800000011920929,
+          0.800000011920929,
+          0.800000011920929
+        ]
+      },
+      "roughness": 0.20987653732299805,
+      "anisotropic": 0.0,
+      "IOR": 1.4500000476837158,
+      "metallic": 0.8580247163772583,
+      "specularTransmittance": 0.0,
+      "specularTint": 0.0,
+      "name": "metal"
+    },
+    {
+      "type": "diffuse",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          0.800000011920929,
+          0.800000011920929,
+          0.800000011920929
+        ]
+      },
+      "name": "out_tile"
+    },
+    {
+      "type": "diffuse",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          0.999970555305481,
+          0.999970555305481,
+          0.999970555305481
+        ]
+      },
+      "name": "Outdoor_tree"
+    },
+    {
+      "type": "diffuse",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          0,
+          0,
+          0
+        ]
+      },
+      "emission": {
+        "type": "rgb",
+        "value": [
+          0.42749631837032176,
+          0.45466295154911407,
+          0.4999999701976776
+        ]
+      },
+      "name": "side_light"
+    },
+    {
+      "type": "diffuse",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          0.800000011920929,
+          0.800000011920929,
+          0.800000011920929
+        ]
+      },
+      "name": "small_light"
+    },
+    {
+      "type": "diffuse",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          0.800000011920929,
+          0.800000011920929,
+          0.800000011920929
+        ]
+      },
+      "name": "spot"
+    },
+    {
+      "type": "diffuse",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          0.800000011920929,
+          0.800000011920929,
+          0.800000011920929
+        ]
+      },
+      "name": "Spot_holder"
+    },
+    {
+      "type": "diffuse",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          0,
+          0,
+          0
+        ]
+      },
+      "emission": {
+        "type": "rgb",
+        "value": [
+          2.0,
+          2.0,
+          2.0
+        ]
+      },
+      "name": "spot_light"
+    },
+    {
+      "type": "diffuse",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          0.800000011920929,
+          0.800000011920929,
+          0.800000011920929
+        ]
+      },
+      "name": "sun_light"
+    },
+    {
+      "type": "generic",
+      "baseColor": {
+        "type": "image",
+        "filename": "seamless_marble_tile_texture_by_hhh316-d4hzszw.jpg"
+      },
+      "roughness": 0.5,
+      "anisotropic": 0.0,
+      "IOR": 1.4500000476837158,
+      "metallic": 0.0,
+      "specularTransmittance": 0.0,
+      "specularTint": 0.0,
+      "name": "Tile"
+    },
+    {
+      "type": "diffuse",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          0,
+          0,
+          0
+        ]
+      },
+      "emission": {
+        "type": "rgb",
+        "value": [
+          2.337753653526306,
+          2.5499281883239746,
+          3.0
+        ]
+      },
+      "name": "upper_light"
+    },
+    {
+      "type": "diffuse",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          0.9330000281333923,
+          0.9300000071525574,
+          0.8600000143051147
+        ]
+      },
+      "name": "wall"
+    },
+    {
+      "type": "generic",
+      "baseColor": {
+        "type": "image",
+        "filename": "Wallpaper texture cicles.jpg"
+      },
+      "roughness": 0.5,
+      "anisotropic": 0.0,
+      "IOR": 1.4500000476837158,
+      "metallic": 0.0,
+      "specularTransmittance": 0.0,
+      "specularTint": 0.0,
+      "name": "Wall_papper"
+    },
+    {
+      "type": "generic",
+      "baseColor": {
+        "type": "image",
+        "filename": "cherry-wood-texture.jpg"
+      },
+      "roughness": 0.5,
+      "anisotropic": 0.0,
+      "IOR": 1.4500000476837158,
+      "metallic": 0.0,
+      "specularTransmittance": 0.0,
+      "specularTint": 0.0,
+      "name": "woods"
+    }
+  ],
+  "transforms": [
+    {
+      "name": "camera",
+      "position": [
+        6.971869468688965,
+        2.030853748321533,
+        2.6496102809906006
+      ],
+      "rotation": [
+        0.06346862224592087,
+        63.800312093658036,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "cameras": [
+    {
+      "fov": 83.78816670178786,
+      "transform": "camera",
+      "name": "default",
+      "type": "perspective"
+    }
+  ],
+  "objects": [
+    {
+      "name": "scene",
+      "type": "obj",
+      "relativePath": "ModernHall.obj"
+    }
+  ]
+}

@@ -1,0 +1,643 @@
+{
+  "name": "scene_0_5_0",
+  "transforms": [
+    {
+      "name": "__camera",
+      "matrix": [
+        0.999914,
+        5.82126E-11,
+        0.0130847,
+        0,
+        0.000835626,
+        0.997959,
+        -0.0638576,
+        0,
+        -0.013058,
+        0.063863,
+        0.997873,
+        0,
+        -0.587317,
+        2.7623,
+        9.71429,
+        1
+      ]
+    }
+  ],
+  "cameras": [
+    {
+      "name": "camera",
+      "type": "perspective",
+      "fov": 35.9834,
+      "transform": "__camera"
+    }
+  ],
+  "background": {
+    "type": "image",
+    "filename": "data/images/Skydome.pfm"
+  },
+  "materials": [
+    {
+      "type": "generic",
+      "name": "WhitePlastic",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          1,
+          1,
+          1
+        ]
+      },
+      "thin": false,
+      "roughness": 0.31622776,
+      "anisotropic": 0,
+      "diffuseTransmittance": 0,
+      "IOR": 1.5,
+      "metallic": 0,
+      "specularTint": 1,
+      "specularTransmittance": 0
+    },
+    {
+      "type": "generic",
+      "name": "Chrome",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          1,
+          1,
+          1
+        ]
+      },
+      "thin": false,
+      "roughness": 0.2236068,
+      "anisotropic": 0,
+      "diffuseTransmittance": 0,
+      "IOR": 4.9,
+      "metallic": 1,
+      "specularTint": 1,
+      "specularTransmittance": 0
+    },
+    {
+      "type": "generic",
+      "name": "BlackRubber",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          0.05,
+          0.05,
+          0.05
+        ]
+      },
+      "thin": false,
+      "roughness": 0.4472136,
+      "anisotropic": 0,
+      "diffuseTransmittance": 0,
+      "IOR": 1.5,
+      "metallic": 0,
+      "specularTint": 1,
+      "specularTransmittance": 0
+    },
+    {
+      "type": "diffuse",
+      "name": "Walls",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          0.2,
+          0.2,
+          0.2
+        ]
+      },
+      "thin": false
+    },
+    {
+      "type": "diffuse",
+      "name": "Artwork",
+      "baseColor": {
+        "type": "image",
+        "filename": "data/images/picture3.jpg"
+      },
+      "thin": false
+    },
+    {
+      "type": "diffuse",
+      "name": "None",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          0,
+          0,
+          0
+        ]
+      },
+      "thin": false
+    },
+    {
+      "type": "diffuse",
+      "name": "FloorTiles",
+      "baseColor": {
+        "type": "image",
+        "filename": "data/images/Tiles.jpg"
+      },
+      "thin": false
+    },
+    {
+      "type": "generic",
+      "name": "BlackPaint",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          0.01,
+          0.01,
+          0.01
+        ]
+      },
+      "thin": false,
+      "roughness": 0.4472136,
+      "anisotropic": 0,
+      "diffuseTransmittance": 0,
+      "IOR": 1.5,
+      "metallic": 0,
+      "specularTint": 1,
+      "specularTransmittance": 0
+    },
+    {
+      "type": "diffuse",
+      "name": "WhiteMarble",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          0.325037,
+          0.325037,
+          0.325037
+        ]
+      },
+      "thin": false
+    },
+    {
+      "type": "generic",
+      "name": "Gold",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          1,
+          1,
+          1
+        ]
+      },
+      "thin": false,
+      "roughness": 0.31622776,
+      "anisotropic": 0,
+      "diffuseTransmittance": 0,
+      "IOR": 4.9,
+      "metallic": 1,
+      "specularTint": 1,
+      "specularTransmittance": 0
+    },
+    {
+      "type": "generic",
+      "name": "Ceramic",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          1,
+          1,
+          1
+        ]
+      },
+      "thin": false,
+      "roughness": 0.1,
+      "anisotropic": 0,
+      "diffuseTransmittance": 0,
+      "IOR": 1.5,
+      "metallic": 0,
+      "specularTint": 1,
+      "specularTransmittance": 0
+    },
+    {
+      "type": "generic",
+      "name": "RoughMetal",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          1,
+          1,
+          1
+        ]
+      },
+      "thin": false,
+      "roughness": 0.31622776,
+      "anisotropic": 0,
+      "diffuseTransmittance": 0,
+      "IOR": 4.9,
+      "metallic": 1,
+      "specularTint": 1,
+      "specularTransmittance": 0
+    },
+    {
+      "type": "generic",
+      "name": "PaintedCeramic",
+      "baseColor": {
+        "type": "image",
+        "filename": "data/images/Teacup.png"
+      },
+      "thin": false,
+      "roughness": 0.1,
+      "anisotropic": 0,
+      "diffuseTransmittance": 0,
+      "IOR": 1.5,
+      "metallic": 0,
+      "specularTint": 1,
+      "specularTransmittance": 0
+    },
+    {
+      "type": "generic",
+      "name": "SkirtWood",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          0.684615,
+          0.684615,
+          0.684615
+        ]
+      },
+      "thin": false,
+      "roughness": 0.31622776,
+      "anisotropic": 0,
+      "diffuseTransmittance": 0,
+      "IOR": 1.5,
+      "metallic": 0,
+      "specularTint": 1,
+      "specularTransmittance": 0
+    },
+    {
+      "type": "generic",
+      "name": "FrostedGlass",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          0.79311,
+          0.79311,
+          0.79311
+        ]
+      },
+      "thin": false,
+      "roughness": 0.31622776,
+      "anisotropic": 0,
+      "diffuseTransmittance": 0,
+      "IOR": 1.5,
+      "metallic": 0,
+      "specularTint": 1,
+      "specularTransmittance": 0
+    },
+      {
+        "name": "Light",
+        "type": "diffuse",
+        "baseColor": {
+          "type": "rgb",
+          "value": [ 0.0, 0.0, 0.0]
+        }
+      }
+  ],
+  "objects": [
+    {
+      "name": "mesh_0",
+      "type": "ply",
+      "relativePath": "data/meshes/Mesh013.ply",
+      "material": "FrostedGlass"
+    },
+    {
+      "name": "mesh_1",
+      "type": "ply",
+      "relativePath": "data/meshes/Mesh016.ply",
+      "material": "WhitePlastic"
+    },
+    {
+      "name": "mesh_2",
+      "type": "ply",
+      "relativePath": "data/meshes/Mesh015.ply",
+      "material": "WhitePlastic"
+    },
+    {
+      "name": "mesh_3",
+      "type": "ply",
+      "relativePath": "data/meshes/Mesh023.ply",
+      "material": "FrostedGlass"
+    },
+    {
+      "name": "mesh_4",
+      "type": "ply",
+      "relativePath": "data/meshes/Mesh020.ply",
+      "material": "WhitePlastic"
+    },
+    {
+      "name": "mesh_5",
+      "type": "ply",
+      "relativePath": "data/meshes/Mesh017.ply",
+      "material": "WhitePlastic"
+    },
+    {
+      "name": "mesh_6",
+      "type": "ply",
+      "relativePath": "data/meshes/Mesh024.ply",
+      "material": "None"
+    },
+    {
+      "name": "mesh_7",
+      "type": "ply",
+      "relativePath": "data/meshes/Mesh041.ply",
+      "material": "BlackPaint"
+    },
+    {
+      "name": "mesh_8",
+      "type": "ply",
+      "relativePath": "data/meshes/Mesh011.ply",
+      "material": "BlackPaint"
+    },
+    {
+      "name": "mesh_9",
+      "type": "ply",
+      "relativePath": "data/meshes/Mesh026.ply",
+      "material": "Ceramic"
+    },
+    {
+      "name": "mesh_10",
+      "type": "ply",
+      "relativePath": "data/meshes/Mesh018.ply",
+      "material": "Gold"
+    },
+    {
+      "name": "mesh_11",
+      "type": "ply",
+      "relativePath": "data/meshes/Mesh007.ply",
+      "material": "RoughMetal"
+    },
+    {
+      "name": "mesh_12",
+      "type": "ply",
+      "relativePath": "data/meshes/Mesh005.ply",
+      "material": "PaintedCeramic"
+    },
+    {
+      "name": "mesh_13",
+      "type": "ply",
+      "relativePath": "data/meshes/Mesh019.ply",
+      "material": "Gold"
+    },
+    {
+      "name": "mesh_14",
+      "type": "ply",
+      "relativePath": "data/meshes/Mesh021.ply",
+      "material": "Ceramic"
+    },
+    {
+      "name": "mesh_15",
+      "type": "ply",
+      "relativePath": "data/meshes/Mesh037.ply",
+      "material": "Ceramic"
+    },
+    {
+      "name": "mesh_16",
+      "type": "ply",
+      "relativePath": "data/meshes/Mesh004.ply",
+      "material": "Gold"
+    },
+    {
+      "name": "mesh_17",
+      "type": "ply",
+      "relativePath": "data/meshes/Mesh014.ply",
+      "material": "PaintedCeramic"
+    },
+    {
+      "name": "mesh_18",
+      "type": "ply",
+      "relativePath": "data/meshes/Mesh012.ply",
+      "material": "Gold"
+    },
+    {
+      "name": "mesh_19",
+      "type": "ply",
+      "relativePath": "data/meshes/Mesh028.ply",
+      "material": "Ceramic"
+    },
+    {
+      "name": "mesh_20",
+      "type": "ply",
+      "relativePath": "data/meshes/Mesh025.ply",
+      "material": "RoughMetal"
+    },
+    {
+      "name": "mesh_21",
+      "type": "ply",
+      "relativePath": "data/meshes/Mesh008.ply",
+      "material": "Ceramic"
+    },
+    {
+      "name": "mesh_22",
+      "type": "ply",
+      "relativePath": "data/meshes/Mesh032.ply",
+      "material": "WhitePlastic"
+    },
+    {
+      "name": "mesh_23",
+      "type": "ply",
+      "relativePath": "data/meshes/Mesh035.ply",
+      "material": "Chrome"
+    },
+    {
+      "name": "mesh_24",
+      "type": "ply",
+      "relativePath": "data/meshes/Mesh042.ply",
+      "material": "BlackRubber"
+    },
+    {
+      "name": "mesh_25",
+      "type": "ply",
+      "relativePath": "data/meshes/Mesh010.ply",
+      "material": "WhitePlastic"
+    },
+    {
+      "name": "mesh_26",
+      "type": "ply",
+      "relativePath": "data/meshes/Mesh036.ply",
+      "material": "Chrome"
+    },
+    {
+      "name": "mesh_27",
+      "type": "ply",
+      "relativePath": "data/meshes/Mesh027.ply",
+      "material": "BlackRubber"
+    },
+    {
+      "name": "mesh_28",
+      "type": "ply",
+      "relativePath": "data/meshes/Mesh043.ply",
+      "material": "WhitePlastic"
+    },
+    {
+      "name": "mesh_29",
+      "type": "ply",
+      "relativePath": "data/meshes/Mesh044.ply",
+      "material": "Chrome"
+    },
+    {
+      "name": "mesh_30",
+      "type": "ply",
+      "relativePath": "data/meshes/Mesh031.ply",
+      "material": "BlackRubber"
+    },
+    {
+      "name": "mesh_31",
+      "type": "ply",
+      "relativePath": "data/meshes/Mesh022.ply",
+      "material": "WhitePlastic"
+    },
+    {
+      "name": "mesh_32",
+      "type": "ply",
+      "relativePath": "data/meshes/Mesh038.ply",
+      "material": "Chrome"
+    },
+    {
+      "name": "mesh_33",
+      "type": "ply",
+      "relativePath": "data/meshes/Mesh030.ply",
+      "material": "BlackRubber"
+    },
+    {
+      "name": "mesh_34",
+      "type": "ply",
+      "relativePath": "data/meshes/Mesh046.ply",
+      "material": "WhitePlastic"
+    },
+    {
+      "name": "mesh_35",
+      "type": "ply",
+      "relativePath": "data/meshes/Mesh047.ply",
+      "material": "Chrome"
+    },
+    {
+      "name": "mesh_36",
+      "type": "ply",
+      "relativePath": "data/meshes/Mesh034.ply",
+      "material": "BlackRubber"
+    },
+    {
+      "name": "mesh_37",
+      "type": "ply",
+      "relativePath": "data/meshes/Mesh033.ply",
+      "material": "WhiteMarble"
+    },
+    {
+      "name": "mesh_38",
+      "type": "ply",
+      "relativePath": "data/meshes/Mesh006.ply",
+      "material": "FloorTiles"
+    },
+    {
+      "name": "mesh_39",
+      "type": "ply",
+      "relativePath": "data/meshes/Mesh048.ply",
+      "material": "Walls"
+    },
+    {
+      "name": "mesh_40",
+      "type": "ply",
+      "relativePath": "data/meshes/Mesh049.ply",
+      "material": "WhitePlastic"
+    },
+    {
+      "name": "mesh_41",
+      "type": "ply",
+      "relativePath": "data/meshes/Mesh051.ply",
+      "material": "Chrome"
+    },
+    {
+      "name": "mesh_42",
+      "type": "ply",
+      "relativePath": "data/meshes/Mesh040.ply",
+      "material": "BlackRubber"
+    },
+    {
+      "name": "mesh_43",
+      "type": "ply",
+      "relativePath": "data/meshes/Mesh003.ply",
+      "material": "Ceramic"
+    },
+    {
+      "name": "mesh_44",
+      "type": "ply",
+      "relativePath": "data/meshes/Mesh002.ply",
+      "material": "Ceramic"
+    },
+    {
+      "name": "mesh_45",
+      "type": "ply",
+      "relativePath": "data/meshes/Mesh009.ply",
+      "material": "Gold"
+    },
+    {
+      "name": "mesh_46",
+      "type": "ply",
+      "relativePath": "data/meshes/Mesh045.ply",
+      "material": "RoughMetal"
+    },
+    {
+      "name": "mesh_47",
+      "type": "ply",
+      "relativePath": "data/meshes/Mesh029.ply",
+      "material": "PaintedCeramic"
+    },
+    {
+      "name": "mesh_48",
+      "type": "ply",
+      "relativePath": "data/meshes/Mesh039.ply",
+      "material": "Gold"
+    },
+    {
+      "name": "mesh_49",
+      "type": "ply",
+      "relativePath": "data/meshes/Mesh050.ply",
+      "material": "Ceramic"
+    },
+    {
+      "name": "mesh_50",
+      "type": "ply",
+      "relativePath": "data/meshes/Mesh001.ply",
+      "material": "Artwork"
+    },
+    {
+      "name": "mesh_51",
+      "type": "ply",
+      "relativePath": "data/meshes/Mesh000.ply",
+      "material": "SkirtWood"
+    },
+    {
+      "name": "mesh_52",
+      "type": "ply",
+      "relativePath": "data/meshes/__rectangle_52.ply",
+      "material": "Walls"
+    },
+    {
+      "name": "light.001",
+      "type": "ply",
+      "relativePath": "data/meshes/light.001.ply",
+      "material": "Light",
+      "emission": {
+        "type": "rgb",
+        "unit": "radiance",
+        "value": [ 20.0, 20.0, 8.0 ]
+      }
+    },
+    {
+      "name": "light.001.2",
+      "type": "ply",
+      "relativePath": "data/meshes/light.001.2.ply",
+      "material": "Light",
+      "emission": {
+        "type": "rgb",
+        "unit": "radiance",
+        "value": [ 8, 8.0, 20.0 ]
+      }
+    }
+  ]
+}

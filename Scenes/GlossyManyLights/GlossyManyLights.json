@@ -1,0 +1,232 @@
+{
+  "materials": [
+    {
+      "type": "generic",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "roughness": 1.0,
+      "anisotropic": 0.0,
+      "diffuseTransmittance": 0.0,
+      "IOR": 1.4500000476837158,
+      "metallic": 0.0,
+      "specularTintStrength": 0.0,
+      "specularTransmittance": 0.0,
+      "thin": false,
+      "emission": {
+        "type": "rgb",
+        "value": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "name": "Dots Stroke"
+    },
+    {
+      "type": "generic",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          0.8000000715255737,
+          0.7662912607192993,
+          0.7914934754371643
+        ]
+      },
+      "roughness": 1.0,
+      "anisotropic": 0.0,
+      "diffuseTransmittance": 0.0,
+      "IOR": 1.0,
+      "metallic": 0.0,
+      "specularTintStrength": 0.0,
+      "specularTransmittance": 0.0,
+      "thin": false,
+      "emission": {
+        "type": "rgb",
+        "value": [
+          6.288216463216372,
+          6.900000095367432,
+          5.907603506438676
+        ]
+      },
+      "name": "Light.01"
+    },
+    {
+      "type": "generic",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          0.800000011920929,
+          0.800000011920929,
+          0.800000011920929
+        ]
+      },
+      "roughness": 1.0,
+      "anisotropic": 0.0,
+      "diffuseTransmittance": 0.0,
+      "IOR": 1.0,
+      "metallic": 0.0,
+      "specularTintStrength": 0.0,
+      "specularTransmittance": 0.0,
+      "thin": false,
+      "emission": {
+        "type": "rgb",
+        "value": [
+          0.044864950235933065,
+          0.056036523543298244,
+          7.0
+        ]
+      },
+      "name": "Light.02"
+    },
+    {
+      "type": "generic",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          0.800000011920929,
+          0.800000011920929,
+          0.800000011920929
+        ]
+      },
+      "roughness": 1.0,
+      "anisotropic": 0.0,
+      "diffuseTransmittance": 0.0,
+      "IOR": 1.0,
+      "metallic": 0.0,
+      "specularTintStrength": 0.0,
+      "specularTransmittance": 0.0,
+      "thin": false,
+      "emission": {
+        "type": "rgb",
+        "value": [
+          7.0,
+          0.030790530610829592,
+          5.006855249404907
+        ]
+      },
+      "name": "Light.03"
+    },
+    {
+      "type": "generic",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          0.800000011920929,
+          0.800000011920929,
+          0.800000011920929
+        ]
+      },
+      "roughness": 1.0,
+      "anisotropic": 0.0,
+      "diffuseTransmittance": 0.0,
+      "IOR": 1.0,
+      "metallic": 0.0,
+      "specularTintStrength": 0.0,
+      "specularTransmittance": 0.0,
+      "thin": false,
+      "emission": {
+        "type": "rgb",
+        "value": [
+          7.0,
+          0.032643020153045654,
+          0.062334511429071426
+        ]
+      },
+      "name": "Light.04"
+    },
+    {
+      "type": "generic",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "roughness": 0.1727272868156433,
+      "anisotropic": 0.0,
+      "diffuseTransmittance": 0.0,
+      "IOR": 1.5,
+      "metallic": 0.1090909093618393,
+      "specularTintStrength": 0.0,
+      "specularTransmittance": 0.0,
+      "thin": false,
+      "emission": {
+        "type": "rgb",
+        "value": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "name": "Material"
+    }
+  ],
+  "transforms": [
+    {
+      "name": "camera",
+      "position": [
+        -0.027218610048294067,
+        1.3223727941513062,
+        -2.667691469192505
+      ],
+      "rotation": [
+        2.5044781608585254e-06,
+        180.0,
+        -0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "cameras": [
+    {
+      "fov": 39.597755335771296,
+      "transform": "camera",
+      "name": "default",
+      "type": "perspective"
+    }
+  ],
+  "objects": [
+    {
+      "name": "Cube",
+      "type": "ply",
+      "material": "Material",
+      "relativePath": "Meshes/Cube.0.ply"
+    },
+    {
+      "name": "Light.01",
+      "type": "ply",
+      "material": "Light.01",
+      "relativePath": "Meshes/Light.01.0.ply"
+    },
+    {
+      "name": "Light.02",
+      "type": "ply",
+      "material": "Light.02",
+      "relativePath": "Meshes/Light.02.0.ply"
+    },
+    {
+      "name": "Light.03",
+      "type": "ply",
+      "material": "Light.03",
+      "relativePath": "Meshes/Light.03.0.ply"
+    },
+    {
+      "name": "Light.04",
+      "type": "ply",
+      "material": "Light.04",
+      "relativePath": "Meshes/Light.04.0.ply"
+    }
+  ]
+}
