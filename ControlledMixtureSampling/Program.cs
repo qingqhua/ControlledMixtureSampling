@@ -3,32 +3,38 @@ using System.Runtime.CompilerServices;
 
 class Program
 {
-    static void RunTeaser()
-    {
-        Benchmark benchmark = new(new PathTracerExperiment()
-        {
-            numVoxels = 0,
-            numSamples = int.MaxValue,
-            numCVTrainSamples = 8,
-            maxTime = 36000,
-        }, new()
-        {
-            SceneRegistry.LoadScene("DiningRoomHiddenLights", maxDepth: 5),
-        }, $"Results/Teaser/EqualTime", 1500, 1000, FrameBuffer.Flags.SendToTev);
-        benchmark.Run(skipReference: false);
-    }
-
-    static void RunExperiment()
+    static void RunEqualSppExperiment()
     {
 
         List<SceneConfig> scenes = new();
         scenes.Add(SceneRegistry.LoadScene("VeachMIS", maxDepth: 5));
-        /*
-                scenes.Add(SceneRegistry.LoadScene("DiningRoomHiddenLights", maxDepth: 5));
-                scenes.Add(SceneRegistry.LoadScene("RGBSofa", maxDepth: 5));
-                scenes.Add(SceneRegistry.LoadScene("ModernHall", maxDepth: 5));
-                scenes.Add(SceneRegistry.LoadScene("VeachMIS", maxDepth: 5));
-                scenes.Add(SceneRegistry.LoadScene("Bathroom", maxDepth: 5));*/
+
+        scenes.Add(SceneRegistry.LoadScene("DiningRoom2", maxDepth: 5));
+        scenes.Add(SceneRegistry.LoadScene("RGBSofa", maxDepth: 5));
+        scenes.Add(SceneRegistry.LoadScene("ModernHall", maxDepth: 5));
+        scenes.Add(SceneRegistry.LoadScene("VeachMIS", maxDepth: 5));
+        scenes.Add(SceneRegistry.LoadScene("Bathroom", maxDepth: 5));
+
+        Benchmark benchmark = new(new PathTracerExperiment()
+        {
+            numSamples = 128,
+            numCVTrainSamples = 16,
+            maxTime = int.MaxValue,
+        }, scenes,
+        $"Results/PT/EqualSpp/", 640, 480, FrameBuffer.Flags.SendToTev);
+        benchmark.Run(skipReference: false);
+    }
+    static void RunEqualTimeExperiment()
+    {
+
+        List<SceneConfig> scenes = new();
+        scenes.Add(SceneRegistry.LoadScene("VeachMIS", maxDepth: 5));
+
+        scenes.Add(SceneRegistry.LoadScene("DiningRoom2", maxDepth: 5));
+        scenes.Add(SceneRegistry.LoadScene("RGBSofa", maxDepth: 5));
+        scenes.Add(SceneRegistry.LoadScene("ModernHall", maxDepth: 5));
+        scenes.Add(SceneRegistry.LoadScene("VeachMIS", maxDepth: 5));
+        scenes.Add(SceneRegistry.LoadScene("Bathroom", maxDepth: 5));
 
         Benchmark benchmark = new(new PathTracerExperiment()
         {
@@ -47,8 +53,8 @@ class Program
         var path = Path.GetDirectoryName(GetThisFilePath());
         SceneRegistry.AddSource(Path.Join(path, "..", "Scenes"));
 
-        // Fig. Spatial subdivision
-        RunExperiment();
+        RunEqualTimeExperiment();
+        RunEqualSppExperiment();
     }
 
 }
