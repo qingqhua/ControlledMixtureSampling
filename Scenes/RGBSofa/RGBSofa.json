@@ -1,0 +1,636 @@
+{
+  "materials": [
+    {
+      "type": "generic",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          0.25305408239364624,
+          0.15148647129535675,
+          0.08302419632673264
+        ]
+      },
+      "roughness": 0.3571428656578064,
+      "anisotropic": 0.0,
+      "diffuseTransmittance": 0.0,
+      "IOR": 1.3748530149459839,
+      "metallic": 0.0,
+      "specularTintStrength": 0.0,
+      "specularTransmittance": 0.0,
+      "thin": false,
+      "emission": {
+        "type": "rgb",
+        "value": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "name": "BaseBoard"
+    },
+    {
+      "type": "generic",
+      "baseColor": {
+        "type": "image",
+        "filename": "Textures/croissant_diff_2k.jpg"
+      },
+      "roughness": 0.7218204736709595,
+      "anisotropic": 0.0,
+      "diffuseTransmittance": 0.0,
+      "IOR": 1.5,
+      "metallic": 0.0,
+      "specularTintStrength": 0.0,
+      "specularTransmittance": 0.0,
+      "thin": false,
+      "emission": {
+        "type": "rgb",
+        "value": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "name": "croissant"
+    },
+    {
+      "type": "generic",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "roughness": 1.0,
+      "anisotropic": 0.0,
+      "diffuseTransmittance": 0.0,
+      "IOR": 1.4500000476837158,
+      "metallic": 0.0,
+      "specularTintStrength": 0.0,
+      "specularTransmittance": 0.0,
+      "thin": false,
+      "emission": {
+        "type": "rgb",
+        "value": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "name": "Dots Stroke"
+    },
+    {
+      "type": "generic",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "roughness": 1.0,
+      "anisotropic": 0.0,
+      "diffuseTransmittance": 0.0,
+      "IOR": 1.4500000476837158,
+      "metallic": 0.0,
+      "specularTintStrength": 0.0,
+      "specularTransmittance": 0.0,
+      "thin": false,
+      "emission": {
+        "type": "rgb",
+        "value": [
+          2.0,
+          1.7436293363571167,
+          1.0941746234893799
+        ]
+      },
+      "name": "FillLamp"
+    },
+    {
+      "type": "generic",
+      "baseColor": {
+        "type": "image",
+        "filename": "Textures/laminate_floor_03_diff_2k.jpg"
+      },
+      "roughness": 0.5,
+      "anisotropic": 0.0,
+      "diffuseTransmittance": 0.0,
+      "IOR": 1.5,
+      "metallic": 0.0,
+      "specularTintStrength": 0.0,
+      "specularTransmittance": 0.0,
+      "thin": false,
+      "emission": {
+        "type": "rgb",
+        "value": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "name": "Floor"
+    },
+    {
+      "type": "generic",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          0.03081839717924595,
+          0.03081839717924595,
+          0.03081839717924595
+        ]
+      },
+      "roughness": 0.2199999988079071,
+      "anisotropic": 0.0,
+      "diffuseTransmittance": 0.0,
+      "IOR": 1.5,
+      "metallic": 0.8571428656578064,
+      "specularTintStrength": 0.0,
+      "specularTransmittance": 0.0,
+      "thin": false,
+      "emission": {
+        "type": "rgb",
+        "value": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "name": "Lamp"
+    },
+    {
+      "type": "generic",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          0.800000011920929,
+          0.800000011920929,
+          0.800000011920929
+        ]
+      },
+      "roughness": 0.5,
+      "anisotropic": 0.0,
+      "diffuseTransmittance": 0.0,
+      "IOR": 1.5,
+      "metallic": 0.0,
+      "specularTintStrength": 0.0,
+      "specularTransmittance": 0.0,
+      "thin": false,
+      "emission": {
+        "type": "rgb",
+        "value": [
+          500.0,
+          124.29910153150558,
+          475.9235382080078
+        ]
+      },
+      "name": "LampBottom"
+    },
+    {
+      "type": "generic",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          0.800000011920929,
+          0.800000011920929,
+          0.800000011920929
+        ]
+      },
+      "roughness": 0.5,
+      "anisotropic": 0.0,
+      "diffuseTransmittance": 0.0,
+      "IOR": 1.5,
+      "metallic": 0.0,
+      "specularTintStrength": 0.0,
+      "specularTransmittance": 0.0,
+      "thin": false,
+      "emission": {
+        "type": "rgb",
+        "value": [
+          500.0,
+          437.61634826660156,
+          112.29097098112106
+        ]
+      },
+      "name": "LampCenter"
+    },
+    {
+      "type": "generic",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          0.800000011920929,
+          0.800000011920929,
+          0.800000011920929
+        ]
+      },
+      "roughness": 0.5,
+      "anisotropic": 0.0,
+      "diffuseTransmittance": 0.0,
+      "IOR": 1.5,
+      "metallic": 0.0,
+      "specularTintStrength": 0.0,
+      "specularTransmittance": 0.0,
+      "thin": false,
+      "emission": {
+        "type": "rgb",
+        "value": [
+          31.31227195262909,
+          327.75235176086426,
+          500.0
+        ]
+      },
+      "name": "LampTop"
+    },
+    {
+      "type": "generic",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          0.800000011920929,
+          0.800000011920929,
+          0.800000011920929
+        ]
+      },
+      "roughness": 0.4000000059604645,
+      "anisotropic": 0.0,
+      "diffuseTransmittance": 0.0,
+      "IOR": 1.5,
+      "metallic": 0.0,
+      "specularTintStrength": 0.0,
+      "specularTransmittance": 0.0,
+      "thin": false,
+      "emission": {
+        "type": "rgb",
+        "value": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "name": "Material"
+    },
+    {
+      "type": "generic",
+      "baseColor": {
+        "type": "image",
+        "filename": "Textures/modern_coffee_table_02_base_diff_2k.png"
+      },
+      "roughness": 0.3181818127632141,
+      "anisotropic": 0.0,
+      "diffuseTransmittance": 0.0,
+      "IOR": 1.5,
+      "metallic": 0.0,
+      "specularTintStrength": 0.0,
+      "specularTransmittance": 0.0,
+      "thin": false,
+      "emission": {
+        "type": "rgb",
+        "value": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "name": "modern_coffee_table_02_base"
+    },
+    {
+      "type": "generic",
+      "baseColor": {
+        "type": "image",
+        "filename": "Textures/modern_coffee_table_02_wood_diff_2k.png"
+      },
+      "roughness": 0.4363636374473572,
+      "anisotropic": 0.0,
+      "diffuseTransmittance": 0.0,
+      "IOR": 1.5,
+      "metallic": 0.0,
+      "specularTintStrength": 0.0,
+      "specularTransmittance": 0.0,
+      "thin": false,
+      "emission": {
+        "type": "rgb",
+        "value": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "name": "modern_coffee_table_02_wood"
+    },
+    {
+      "type": "generic",
+      "baseColor": {
+        "type": "image",
+        "filename": "Textures/potted_plant_04_diff_2k.jpg"
+      },
+      "roughness": 0.5,
+      "anisotropic": 0.0,
+      "diffuseTransmittance": 0.0,
+      "IOR": 1.5,
+      "metallic": 0.0,
+      "specularTintStrength": 0.0,
+      "specularTransmittance": 0.0,
+      "thin": false,
+      "emission": {
+        "type": "rgb",
+        "value": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "name": "PottedPlant_04"
+    },
+    {
+      "type": "generic",
+      "baseColor": {
+        "type": "image",
+        "filename": "Textures/sofa_02_diff_2k.jpg"
+      },
+      "roughness": 0.5,
+      "anisotropic": 0.0,
+      "diffuseTransmittance": 0.0,
+      "IOR": 1.5,
+      "metallic": 0.0,
+      "specularTintStrength": 0.0,
+      "specularTransmittance": 0.0,
+      "thin": false,
+      "emission": {
+        "type": "rgb",
+        "value": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "name": "sofa_02"
+    },
+    {
+      "type": "generic",
+      "baseColor": {
+        "type": "image",
+        "filename": "Textures/tea_set_01_diff_2k.jpg"
+      },
+      "roughness": 0.13499999046325684,
+      "anisotropic": 0.0,
+      "diffuseTransmittance": 0.0,
+      "IOR": 1.3593683242797852,
+      "metallic": 0.0,
+      "specularTintStrength": 0.0,
+      "specularTransmittance": 0.0,
+      "thin": false,
+      "emission": {
+        "type": "rgb",
+        "value": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "name": "tea_set_01"
+    },
+    {
+      "type": "generic",
+      "baseColor": {
+        "type": "image",
+        "filename": "Textures/throw_pillows_01_diff_2k.jpg"
+      },
+      "roughness": 0.5,
+      "anisotropic": 0.0,
+      "diffuseTransmittance": 0.0,
+      "IOR": 1.5,
+      "metallic": 0.0,
+      "specularTintStrength": 0.0,
+      "specularTransmittance": 0.0,
+      "thin": false,
+      "emission": {
+        "type": "rgb",
+        "value": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "name": "throw_pillows_01"
+    },
+    {
+      "type": "generic",
+      "baseColor": {
+        "type": "image",
+        "filename": "Textures/beige_wall_001_diff_2k.jpg"
+      },
+      "roughness": 0.5,
+      "anisotropic": 0.0,
+      "diffuseTransmittance": 0.0,
+      "IOR": 1.5,
+      "metallic": 0.0,
+      "specularTintStrength": 0.0,
+      "specularTransmittance": 0.0,
+      "thin": false,
+      "emission": {
+        "type": "rgb",
+        "value": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "name": "Walls"
+    },
+    {
+      "type": "generic",
+      "baseColor": {
+        "type": "image",
+        "filename": "Textures/wooden_display_shelves_01_diff_2k.jpg"
+      },
+      "roughness": 0.5,
+      "anisotropic": 0.0,
+      "diffuseTransmittance": 0.0,
+      "IOR": 1.5,
+      "metallic": 0.0,
+      "specularTintStrength": 0.0,
+      "specularTransmittance": 0.0,
+      "thin": false,
+      "emission": {
+        "type": "rgb",
+        "value": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "name": "wooden_display_shelves_01"
+    }
+  ],
+  "transforms": [
+    {
+      "name": "camera",
+      "position": [
+        2.564143657684326,
+        1.2734366655349731,
+        0.8498174548149109
+      ],
+      "rotation": [
+        -14.476002875284408,
+        200.66191475819906,
+        -0.001211839143124905
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "cameras": [
+    {
+      "fov": 30.2191523188336,
+      "transform": "camera",
+      "name": "default",
+      "type": "perspective"
+    }
+  ],
+  "objects": [
+    {
+      "name": "Floor",
+      "type": "ply",
+      "material": "Floor",
+      "relativePath": "Meshes/Floor.0.ply"
+    },
+    {
+      "name": "Walls",
+      "type": "ply",
+      "material": "Walls",
+      "relativePath": "Meshes/Walls.0.ply"
+    },
+    {
+      "name": "sofa_02_Base",
+      "type": "ply",
+      "material": "sofa_02",
+      "relativePath": "Meshes/sofa_02_Base.0.ply"
+    },
+    {
+      "name": "sofa_02_Seat",
+      "type": "ply",
+      "material": "sofa_02",
+      "relativePath": "Meshes/sofa_02_Seat.0.ply"
+    },
+    {
+      "name": "Cube",
+      "type": "ply",
+      "material": "Lamp",
+      "relativePath": "Meshes/Cube.0.ply"
+    },
+    {
+      "name": "Plane",
+      "type": "ply",
+      "material": "LampCenter",
+      "relativePath": "Meshes/Plane.0.ply"
+    },
+    {
+      "name": "Plane.001",
+      "type": "ply",
+      "material": "LampTop",
+      "relativePath": "Meshes/Plane.001.0.ply"
+    },
+    {
+      "name": "Plane.002",
+      "type": "ply",
+      "material": "LampBottom",
+      "relativePath": "Meshes/Plane.002.0.ply"
+    },
+    {
+      "name": "wooden_display_shelves_01",
+      "type": "ply",
+      "material": "wooden_display_shelves_01",
+      "relativePath": "Meshes/wooden_display_shelves_01.0.ply"
+    },
+    {
+      "name": "wooden_display_shelves_01_drawer_01",
+      "type": "ply",
+      "material": "wooden_display_shelves_01",
+      "relativePath": "Meshes/wooden_display_shelves_01_drawer_01.0.ply"
+    },
+    {
+      "name": "wooden_display_shelves_01_drawer_02",
+      "type": "ply",
+      "material": "wooden_display_shelves_01",
+      "relativePath": "Meshes/wooden_display_shelves_01_drawer_02.0.ply"
+    },
+    {
+      "name": "wooden_display_shelves_01_drawer_03",
+      "type": "ply",
+      "material": "wooden_display_shelves_01",
+      "relativePath": "Meshes/wooden_display_shelves_01_drawer_03.0.ply"
+    },
+    {
+      "name": "Cube.001",
+      "type": "ply",
+      "material": "BaseBoard",
+      "relativePath": "Meshes/Cube.001.0.ply"
+    },
+    {
+      "name": "Cube.002",
+      "type": "ply",
+      "material": "BaseBoard",
+      "relativePath": "Meshes/Cube.002.0.ply"
+    },
+    {
+      "name": "tea_set_01_cup_small_01",
+      "type": "ply",
+      "material": "tea_set_01",
+      "relativePath": "Meshes/tea_set_01_cup_small_01.0.ply"
+    },
+    {
+      "name": "tea_set_01_plate_large_square_01",
+      "type": "ply",
+      "material": "tea_set_01",
+      "relativePath": "Meshes/tea_set_01_plate_large_square_01.0.ply"
+    },
+    {
+      "name": "tea_set_01_saucer_circular_04",
+      "type": "ply",
+      "material": "tea_set_01",
+      "relativePath": "Meshes/tea_set_01_saucer_circular_04.0.ply"
+    },
+    {
+      "name": "croissant",
+      "type": "ply",
+      "material": "croissant",
+      "relativePath": "Meshes/croissant.0.ply"
+    },
+    {
+      "name": "potted_plant_04",
+      "type": "ply",
+      "material": "PottedPlant_04",
+      "relativePath": "Meshes/potted_plant_04.0.ply"
+    },
+    {
+      "name": "throw_pillows_01_pillow02",
+      "type": "ply",
+      "material": "throw_pillows_01",
+      "relativePath": "Meshes/throw_pillows_01_pillow02.0.ply"
+    },
+    {
+      "name": "modern_coffee_table_02",
+      "type": "ply",
+      "material": "modern_coffee_table_02_base",
+      "relativePath": "Meshes/modern_coffee_table_02.0.ply"
+    },
+    {
+      "name": "modern_coffee_table_02",
+      "type": "ply",
+      "material": "modern_coffee_table_02_wood",
+      "relativePath": "Meshes/modern_coffee_table_02.1.ply"
+    },
+    {
+      "name": "FillLamp",
+      "type": "ply",
+      "material": "FillLamp",
+      "relativePath": "Meshes/FillLamp.0.ply"
+    }
+  ]
+}

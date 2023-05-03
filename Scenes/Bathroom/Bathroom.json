@@ -1,0 +1,1470 @@
+{
+  "materials": [
+    {
+      "type": "generic",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          0.49102094769477844,
+          0.24635155498981476,
+          0.11894018203020096
+        ]
+      },
+      "roughness": 0.5,
+      "anisotropic": 0.0,
+      "diffuseTransmittance": 0.0,
+      "IOR": 1.5,
+      "metallic": 0.0,
+      "specularTintStrength": 0.0,
+      "specularTransmittance": 0.0,
+      "thin": false,
+      "emission": {
+        "type": "rgb",
+        "value": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "name": "_"
+    },
+    {
+      "type": "generic",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          0.800000011920929,
+          0.800000011920929,
+          0.800000011920929
+        ]
+      },
+      "roughness": 0.4000000059604645,
+      "anisotropic": 0.0,
+      "diffuseTransmittance": 0.0,
+      "IOR": 1.0,
+      "metallic": 0.0,
+      "specularTintStrength": 0.0,
+      "specularTransmittance": 0.0,
+      "thin": false,
+      "emission": {
+        "type": "rgb",
+        "value": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "name": "Baseboard_material"
+    },
+    {
+      "type": "generic",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          0.027718154713511467,
+          0.027718154713511467,
+          0.027718154713511467
+        ]
+      },
+      "roughness": 0.5,
+      "anisotropic": 0.0,
+      "diffuseTransmittance": 0.0,
+      "IOR": 1.16304349899292,
+      "metallic": 0.3179347813129425,
+      "specularTintStrength": 0.0,
+      "specularTransmittance": 0.0,
+      "thin": false,
+      "emission": {
+        "type": "rgb",
+        "value": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "name": "Black - Semi Gloss"
+    },
+    {
+      "type": "generic",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "roughness": 1.0,
+      "anisotropic": 0.0,
+      "diffuseTransmittance": 0.0,
+      "IOR": 1.0,
+      "metallic": 0.0,
+      "specularTintStrength": 0.0,
+      "specularTransmittance": 0.0,
+      "thin": false,
+      "emission": {
+        "type": "rgb",
+        "value": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "name": "BlackHole"
+    },
+    {
+      "type": "generic",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          0.800000011920929,
+          0.5438655614852905,
+          0.15143509209156036
+        ]
+      },
+      "roughness": 0.5623413324356079,
+      "anisotropic": 0.0,
+      "diffuseTransmittance": 0.0,
+      "IOR": 1.0,
+      "metallic": 1.0,
+      "specularTintStrength": 0.0,
+      "specularTransmittance": 0.0,
+      "thin": false,
+      "emission": {
+        "type": "rgb",
+        "value": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "name": "Brass"
+    },
+    {
+      "type": "generic",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          0.800000011920929,
+          0.800000011920929,
+          0.800000011920929
+        ]
+      },
+      "roughness": 0.4000000059604645,
+      "anisotropic": 0.0,
+      "diffuseTransmittance": 0.0,
+      "IOR": 1.3695652484893799,
+      "metallic": 0.0,
+      "specularTintStrength": 0.0,
+      "specularTransmittance": 0.0,
+      "thin": false,
+      "emission": {
+        "type": "rgb",
+        "value": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "name": "Ceiling_material"
+    },
+    {
+      "type": "generic",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          0.7151283621788025,
+          0.8000000715255737,
+          0.7907687425613403
+        ]
+      },
+      "roughness": 0.239130437374115,
+      "anisotropic": 0.3586956560611725,
+      "diffuseTransmittance": 0.0,
+      "IOR": 1.5,
+      "metallic": 0.0,
+      "specularTintStrength": 0.6413043737411499,
+      "specularTransmittance": 0.0,
+      "thin": false,
+      "emission": {
+        "type": "rgb",
+        "value": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "name": "ceramic"
+    },
+    {
+      "type": "generic",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          0.800000011920929,
+          0.800000011920929,
+          0.800000011920929
+        ]
+      },
+      "roughness": 0.5,
+      "anisotropic": 0.0,
+      "diffuseTransmittance": 0.0,
+      "IOR": 1.0,
+      "metallic": 0.0,
+      "specularTintStrength": 0.0,
+      "specularTransmittance": 0.0,
+      "thin": false,
+      "emission": {
+        "type": "rgb",
+        "value": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "name": "Chrome"
+    },
+    {
+      "type": "generic",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "roughness": 1.0,
+      "anisotropic": 0.0,
+      "diffuseTransmittance": 0.0,
+      "IOR": 1.4500000476837158,
+      "metallic": 0.0,
+      "specularTintStrength": 0.0,
+      "specularTransmittance": 0.0,
+      "thin": false,
+      "emission": {
+        "type": "rgb",
+        "value": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "name": "Dots Stroke"
+    },
+    {
+      "type": "generic",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          0.800000011920929,
+          0.800000011920929,
+          0.800000011920929
+        ]
+      },
+      "roughness": 0.5,
+      "anisotropic": 0.0,
+      "diffuseTransmittance": 0.0,
+      "IOR": 1.5,
+      "metallic": 0.0,
+      "specularTintStrength": 0.0,
+      "specularTransmittance": 0.0,
+      "thin": false,
+      "emission": {
+        "type": "rgb",
+        "value": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "name": "FabricUpholsteryIsometricPaths001_2K"
+    },
+    {
+      "type": "generic",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          0.800000011920929,
+          0.800000011920929,
+          0.800000011920929
+        ]
+      },
+      "roughness": 0.5,
+      "anisotropic": 0.0,
+      "diffuseTransmittance": 0.0,
+      "IOR": 1.5,
+      "metallic": 0.0,
+      "specularTintStrength": 0.0,
+      "specularTransmittance": 0.0,
+      "thin": false,
+      "emission": {
+        "type": "rgb",
+        "value": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "name": "FabricUpholsteryIsometricShapes001_2K"
+    },
+    {
+      "type": "generic",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "roughness": 1.0,
+      "anisotropic": 0.0,
+      "diffuseTransmittance": 0.0,
+      "IOR": 1.4500000476837158,
+      "metallic": 0.0,
+      "specularTintStrength": 0.0,
+      "specularTransmittance": 0.0,
+      "thin": false,
+      "emission": {
+        "type": "rgb",
+        "value": [
+          1.2751765251159668,
+          1.840070366859436,
+          2.0
+        ]
+      },
+      "name": "FillLight"
+    },
+    {
+      "type": "generic",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          0.09592273831367493,
+          0.09592273831367493,
+          0.09592273831367493
+        ]
+      },
+      "roughness": 0.2663043737411499,
+      "anisotropic": 0.0,
+      "diffuseTransmittance": 0.0,
+      "IOR": 1.6130435466766357,
+      "metallic": 0.0,
+      "specularTintStrength": 0.0,
+      "specularTransmittance": 0.0,
+      "thin": false,
+      "emission": {
+        "type": "rgb",
+        "value": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "name": "Floor"
+    },
+    {
+      "type": "generic",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "roughness": 1.0,
+      "anisotropic": 0.0,
+      "diffuseTransmittance": 0.0,
+      "IOR": 1.4500000476837158,
+      "metallic": 0.0,
+      "specularTintStrength": 0.0,
+      "specularTransmittance": 0.0,
+      "thin": false,
+      "emission": {
+        "type": "rgb",
+        "value": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "name": "Floor_material"
+    },
+    {
+      "type": "generic",
+      "baseColor": {
+        "type": "image",
+        "filename": "Textures/Metal035_2K_Color.jpg"
+      },
+      "roughness": 0.30000001192092896,
+      "anisotropic": 0.0,
+      "diffuseTransmittance": 0.0,
+      "IOR": 1.5,
+      "metallic": 1.0,
+      "specularTintStrength": 0.0,
+      "specularTransmittance": 0.0,
+      "thin": false,
+      "emission": {
+        "type": "rgb",
+        "value": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "name": "HANDLE"
+    },
+    {
+      "type": "generic",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          0.43364712595939636,
+          0.43364712595939636,
+          0.43364712595939636
+        ]
+      },
+      "roughness": 0.2114742547273636,
+      "anisotropic": 0.2445652186870575,
+      "diffuseTransmittance": 0.0,
+      "IOR": 1.0,
+      "metallic": 1.0,
+      "specularTintStrength": 0.0,
+      "specularTransmittance": 0.0,
+      "thin": false,
+      "emission": {
+        "type": "rgb",
+        "value": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "name": "inox.002"
+    },
+    {
+      "type": "generic",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "roughness": 1.0,
+      "anisotropic": 0.0,
+      "diffuseTransmittance": 0.0,
+      "IOR": 1.4500000476837158,
+      "metallic": 0.0,
+      "specularTintStrength": 0.0,
+      "specularTransmittance": 0.0,
+      "thin": false,
+      "emission": {
+        "type": "rgb",
+        "value": [
+          10.0,
+          7.997853755950928,
+          5.542077422142029
+        ]
+      },
+      "name": "KeyLamp"
+    },
+    {
+      "type": "generic",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "roughness": 1.0,
+      "anisotropic": 0.0,
+      "diffuseTransmittance": 0.0,
+      "IOR": 1.4500000476837158,
+      "metallic": 0.0,
+      "specularTintStrength": 0.0,
+      "specularTransmittance": 0.0,
+      "thin": false,
+      "emission": {
+        "type": "rgb",
+        "value": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "name": "marble white"
+    },
+    {
+      "type": "generic",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "roughness": 1.0,
+      "anisotropic": 0.0,
+      "diffuseTransmittance": 0.0,
+      "IOR": 1.4500000476837158,
+      "metallic": 0.0,
+      "specularTintStrength": 0.0,
+      "specularTransmittance": 0.0,
+      "thin": false,
+      "emission": {
+        "type": "rgb",
+        "value": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "name": "Mat_1"
+    },
+    {
+      "type": "generic",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          0.2989305853843689,
+          0.17367586493492126,
+          0.11757300794124603
+        ]
+      },
+      "roughness": 0.4000000059604645,
+      "anisotropic": 0.0,
+      "diffuseTransmittance": 0.0,
+      "IOR": 1.43478262424469,
+      "metallic": 0.0,
+      "specularTintStrength": 0.0,
+      "specularTransmittance": 0.0,
+      "thin": false,
+      "emission": {
+        "type": "rgb",
+        "value": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "name": "Material.001"
+    },
+    {
+      "type": "generic",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "roughness": 1.0,
+      "anisotropic": 0.0,
+      "diffuseTransmittance": 0.0,
+      "IOR": 1.4500000476837158,
+      "metallic": 0.0,
+      "specularTintStrength": 0.0,
+      "specularTransmittance": 0.0,
+      "thin": false,
+      "emission": {
+        "type": "rgb",
+        "value": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "name": "Material.002"
+    },
+    {
+      "type": "generic",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          0.35055673122406006,
+          0.35055673122406006,
+          0.35055673122406006
+        ]
+      },
+      "roughness": 0.08196721225976944,
+      "anisotropic": 0.0,
+      "diffuseTransmittance": 0.0,
+      "IOR": 1.5353807210922241,
+      "metallic": 1.0,
+      "specularTintStrength": 0.0,
+      "specularTransmittance": 0.0,
+      "thin": false,
+      "emission": {
+        "type": "rgb",
+        "value": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "name": "Material.004"
+    },
+    {
+      "type": "generic",
+      "baseColor": {
+        "type": "image",
+        "filename": "Textures/Wood063_2K_Color.jpg"
+      },
+      "roughness": 0.5,
+      "anisotropic": 0.0,
+      "diffuseTransmittance": 0.0,
+      "IOR": 1.5,
+      "metallic": 0.0,
+      "specularTintStrength": 0.0,
+      "specularTransmittance": 0.0,
+      "thin": false,
+      "emission": {
+        "type": "rgb",
+        "value": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "name": "Material.005"
+    },
+    {
+      "type": "generic",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "roughness": 0.0,
+      "anisotropic": 0.0,
+      "diffuseTransmittance": 0.0,
+      "IOR": 1.0,
+      "metallic": 1.0,
+      "specularTintStrength": 0.0,
+      "specularTransmittance": 0.0,
+      "thin": false,
+      "emission": {
+        "type": "rgb",
+        "value": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "name": "Mirror"
+    },
+    {
+      "type": "generic",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          0.800000011920929,
+          0.800000011920929,
+          0.800000011920929
+        ]
+      },
+      "roughness": 1.0,
+      "anisotropic": 0.0,
+      "diffuseTransmittance": 0.0,
+      "IOR": 1.0,
+      "metallic": 0.0,
+      "specularTintStrength": 0.0,
+      "specularTransmittance": 0.0,
+      "thin": false,
+      "emission": {
+        "type": "rgb",
+        "value": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "name": "oshibori.001"
+    },
+    {
+      "type": "generic",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          0.03635085001587868,
+          0.09592153131961823,
+          0.027583008632063866
+        ]
+      },
+      "roughness": 0.5788043737411499,
+      "anisotropic": 0.0,
+      "diffuseTransmittance": 0.0,
+      "IOR": 1.5,
+      "metallic": 0.08967391401529312,
+      "specularTintStrength": 0.23641304671764374,
+      "specularTransmittance": 0.0,
+      "thin": false,
+      "emission": {
+        "type": "rgb",
+        "value": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "name": "PlantSucculentEcheveria001_2K.001"
+    },
+    {
+      "type": "generic",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "roughness": 1.0,
+      "anisotropic": 0.0,
+      "diffuseTransmittance": 0.0,
+      "IOR": 1.4500000476837158,
+      "metallic": 0.0,
+      "specularTintStrength": 0.0,
+      "specularTransmittance": 0.0,
+      "thin": false,
+      "emission": {
+        "type": "rgb",
+        "value": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "name": "Red"
+    },
+    {
+      "type": "generic",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          0.6310204267501831,
+          0.8290910124778748,
+          1.0
+        ]
+      },
+      "roughness": 0.17934781312942505,
+      "anisotropic": 0.0,
+      "diffuseTransmittance": 0.0,
+      "IOR": 1.4500000476837158,
+      "metallic": 0.0,
+      "specularTintStrength": 0.28260868787765503,
+      "specularTransmittance": 0.0,
+      "thin": false,
+      "emission": {
+        "type": "rgb",
+        "value": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "name": "tiles"
+    },
+    {
+      "type": "generic",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          0.1419999748468399,
+          0.5390952229499817,
+          0.8000000715255737
+        ]
+      },
+      "roughness": 0.7554347515106201,
+      "anisotropic": 0.0,
+      "diffuseTransmittance": 0.0,
+      "IOR": 1.35869562625885,
+      "metallic": 0.0,
+      "specularTintStrength": 0.0,
+      "specularTransmittance": 0.0,
+      "thin": false,
+      "emission": {
+        "type": "rgb",
+        "value": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "name": "toothbrush.001"
+    },
+    {
+      "type": "generic",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          0.46191245317459106,
+          0.8000000715255737,
+          0.3368777930736542
+        ]
+      },
+      "roughness": 0.8125,
+      "anisotropic": 0.0,
+      "diffuseTransmittance": 0.0,
+      "IOR": 1.25,
+      "metallic": 0.0,
+      "specularTintStrength": 0.0,
+      "specularTransmittance": 0.0,
+      "thin": false,
+      "emission": {
+        "type": "rgb",
+        "value": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "name": "toothbrush.002"
+    },
+    {
+      "type": "generic",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          0.8000000715255737,
+          0.22175997495651245,
+          0.582304835319519
+        ]
+      },
+      "roughness": 0.845108687877655,
+      "anisotropic": 0.0,
+      "diffuseTransmittance": 0.0,
+      "IOR": 1.3478261232376099,
+      "metallic": 0.0,
+      "specularTintStrength": 0.0,
+      "specularTransmittance": 0.0,
+      "thin": false,
+      "emission": {
+        "type": "rgb",
+        "value": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "name": "toothbrush.003"
+    },
+    {
+      "type": "generic",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "roughness": 0.5,
+      "anisotropic": 0.0,
+      "diffuseTransmittance": 0.0,
+      "IOR": 1.4673912525177002,
+      "metallic": 0.0,
+      "specularTintStrength": 0.0,
+      "specularTransmittance": 0.0,
+      "thin": false,
+      "emission": {
+        "type": "rgb",
+        "value": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "name": "WhitePlastic"
+    },
+    {
+      "type": "generic",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          0.08437623083591461,
+          0.057805441319942474,
+          0.017641957849264145
+        ]
+      },
+      "roughness": 0.5,
+      "anisotropic": 0.0,
+      "diffuseTransmittance": 0.0,
+      "IOR": 1.5,
+      "metallic": 0.0,
+      "specularTintStrength": 0.0,
+      "specularTransmittance": 0.0,
+      "thin": false,
+      "emission": {
+        "type": "rgb",
+        "value": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "name": "wire_088144225"
+    },
+    {
+      "type": "generic",
+      "baseColor": {
+        "type": "rgb",
+        "value": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "roughness": 1.0,
+      "anisotropic": 0.0,
+      "diffuseTransmittance": 0.0,
+      "IOR": 1.4500000476837158,
+      "metallic": 0.0,
+      "specularTintStrength": 0.0,
+      "specularTransmittance": 0.0,
+      "thin": false,
+      "emission": {
+        "type": "rgb",
+        "value": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "name": "wire_088144225.001"
+    }
+  ],
+  "transforms": [
+    {
+      "name": "camera",
+      "position": [
+        -0.5612040758132935,
+        1.3012113571166992,
+        0.8455644845962524
+      ],
+      "rotation": [
+        1.0729705815738129,
+        218.68791949681224,
+        0.05825340944067599
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "cameras": [
+    {
+      "fov": 30.2191523188336,
+      "transform": "camera",
+      "name": "default",
+      "type": "perspective"
+    }
+  ],
+  "objects": [
+    {
+      "name": "Room",
+      "type": "ply",
+      "material": "tiles",
+      "relativePath": "Meshes/Room.0.ply"
+    },
+    {
+      "name": "Room",
+      "type": "ply",
+      "material": "Floor_material",
+      "relativePath": "Meshes/Room.1.ply"
+    },
+    {
+      "name": "Baseboard",
+      "type": "ply",
+      "material": "Baseboard_material",
+      "relativePath": "Meshes/Baseboard.0.ply"
+    },
+    {
+      "name": "Ceiling",
+      "type": "ply",
+      "material": "Ceiling_material",
+      "relativePath": "Meshes/Ceiling.0.ply"
+    },
+    {
+      "name": "Floor",
+      "type": "ply",
+      "material": "Floor",
+      "relativePath": "Meshes/Floor.0.ply"
+    },
+    {
+      "name": "Faucet_body.001",
+      "type": "ply",
+      "material": "inox.002",
+      "relativePath": "Meshes/Faucet_body.001.0.ply"
+    },
+    {
+      "name": "Cube.003",
+      "type": "ply",
+      "material": "ceramic",
+      "relativePath": "Meshes/Cube.003.0.ply"
+    },
+    {
+      "name": "Cube.003",
+      "type": "ply",
+      "material": "Material.004",
+      "relativePath": "Meshes/Cube.003.1.ply"
+    },
+    {
+      "name": "Faucet_lever.001",
+      "type": "ply",
+      "material": "inox.002",
+      "relativePath": "Meshes/Faucet_lever.001.0.ply"
+    },
+    {
+      "name": "sifon",
+      "type": "ply",
+      "material": "inox.002",
+      "relativePath": "Meshes/sifon.0.ply"
+    },
+    {
+      "name": "sifon.001",
+      "type": "ply",
+      "material": "inox.002",
+      "relativePath": "Meshes/sifon.001.0.ply"
+    },
+    {
+      "name": "Cube.005",
+      "type": "ply",
+      "material": "Material.001",
+      "relativePath": "Meshes/Cube.005.0.ply"
+    },
+    {
+      "name": "Plane.001",
+      "type": "ply",
+      "material": "ceramic",
+      "relativePath": "Meshes/Plane.001.0.ply"
+    },
+    {
+      "name": "Cube.004",
+      "type": "ply",
+      "material": "Material.001",
+      "relativePath": "Meshes/Cube.004.0.ply"
+    },
+    {
+      "name": "Cube.006",
+      "type": "ply",
+      "material": "Material.001",
+      "relativePath": "Meshes/Cube.006.0.ply"
+    },
+    {
+      "name": "Cube.002",
+      "type": "ply",
+      "material": "Material.001",
+      "relativePath": "Meshes/Cube.002.0.ply"
+    },
+    {
+      "name": "Cube.007",
+      "type": "ply",
+      "material": "Material.001",
+      "relativePath": "Meshes/Cube.007.0.ply"
+    },
+    {
+      "name": "Cube.008",
+      "type": "ply",
+      "material": "Material.001",
+      "relativePath": "Meshes/Cube.008.0.ply"
+    },
+    {
+      "name": "Cube.009",
+      "type": "ply",
+      "material": "Material.001",
+      "relativePath": "Meshes/Cube.009.0.ply"
+    },
+    {
+      "name": "Cube.010",
+      "type": "ply",
+      "material": "Material.001",
+      "relativePath": "Meshes/Cube.010.0.ply"
+    },
+    {
+      "name": "Cube.011",
+      "type": "ply",
+      "material": "Material.001",
+      "relativePath": "Meshes/Cube.011.0.ply"
+    },
+    {
+      "name": "Cube.012",
+      "type": "ply",
+      "material": "Material.001",
+      "relativePath": "Meshes/Cube.012.0.ply"
+    },
+    {
+      "name": "Cube.013",
+      "type": "ply",
+      "material": "Material.001",
+      "relativePath": "Meshes/Cube.013.0.ply"
+    },
+    {
+      "name": "Cube.014",
+      "type": "ply",
+      "material": "Material.001",
+      "relativePath": "Meshes/Cube.014.0.ply"
+    },
+    {
+      "name": "Cube.015",
+      "type": "ply",
+      "material": "Material.001",
+      "relativePath": "Meshes/Cube.015.0.ply"
+    },
+    {
+      "name": "Cube.001",
+      "type": "ply",
+      "material": "Material.001",
+      "relativePath": "Meshes/Cube.001.0.ply"
+    },
+    {
+      "name": "base.002",
+      "type": "ply",
+      "material": "ceramic",
+      "relativePath": "Meshes/base.002.0.ply"
+    },
+    {
+      "name": "Plane.003",
+      "type": "ply",
+      "material": "Mirror",
+      "relativePath": "Meshes/Plane.003.0.ply"
+    },
+    {
+      "name": "Plane.002",
+      "type": "ply",
+      "material": "Material.001",
+      "relativePath": "Meshes/Plane.002.0.ply"
+    },
+    {
+      "name": "Robe_Hook_01",
+      "type": "ply",
+      "material": "Chrome",
+      "relativePath": "Meshes/Robe_Hook_01.0.ply"
+    },
+    {
+      "name": "Robe_Hook_01.001",
+      "type": "ply",
+      "material": "Chrome",
+      "relativePath": "Meshes/Robe_Hook_01.001.0.ply"
+    },
+    {
+      "name": "oshibori_big",
+      "type": "ply",
+      "material": "oshibori.001",
+      "relativePath": "Meshes/oshibori_big.0.ply"
+    },
+    {
+      "name": "oshibori_middle",
+      "type": "ply",
+      "material": "oshibori.001",
+      "relativePath": "Meshes/oshibori_middle.0.ply"
+    },
+    {
+      "name": "oshibori_small",
+      "type": "ply",
+      "material": "oshibori.001",
+      "relativePath": "Meshes/oshibori_small.0.ply"
+    },
+    {
+      "name": "oshibori_big.001",
+      "type": "ply",
+      "material": "oshibori.001",
+      "relativePath": "Meshes/oshibori_big.001.0.ply"
+    },
+    {
+      "name": "oshibori_middle.001",
+      "type": "ply",
+      "material": "oshibori.001",
+      "relativePath": "Meshes/oshibori_middle.001.0.ply"
+    },
+    {
+      "name": "oshibori_small.001",
+      "type": "ply",
+      "material": "oshibori.001",
+      "relativePath": "Meshes/oshibori_small.001.0.ply"
+    },
+    {
+      "name": "oshibori_big.002",
+      "type": "ply",
+      "material": "oshibori.001",
+      "relativePath": "Meshes/oshibori_big.002.0.ply"
+    },
+    {
+      "name": "oshibori_middle.002",
+      "type": "ply",
+      "material": "oshibori.001",
+      "relativePath": "Meshes/oshibori_middle.002.0.ply"
+    },
+    {
+      "name": "oshibori_small.002",
+      "type": "ply",
+      "material": "oshibori.001",
+      "relativePath": "Meshes/oshibori_small.002.0.ply"
+    },
+    {
+      "name": "oshibori_big.003",
+      "type": "ply",
+      "material": "oshibori.001",
+      "relativePath": "Meshes/oshibori_big.003.0.ply"
+    },
+    {
+      "name": "oshibori_middle.003",
+      "type": "ply",
+      "material": "oshibori.001",
+      "relativePath": "Meshes/oshibori_middle.003.0.ply"
+    },
+    {
+      "name": "oshibori_small.003",
+      "type": "ply",
+      "material": "oshibori.001",
+      "relativePath": "Meshes/oshibori_small.003.0.ply"
+    },
+    {
+      "name": "oshibori_big.004",
+      "type": "ply",
+      "material": "oshibori.001",
+      "relativePath": "Meshes/oshibori_big.004.0.ply"
+    },
+    {
+      "name": "oshibori_middle.004",
+      "type": "ply",
+      "material": "oshibori.001",
+      "relativePath": "Meshes/oshibori_middle.004.0.ply"
+    },
+    {
+      "name": "oshibori_small.004",
+      "type": "ply",
+      "material": "oshibori.001",
+      "relativePath": "Meshes/oshibori_small.004.0.ply"
+    },
+    {
+      "name": "oshibori_big.005",
+      "type": "ply",
+      "material": "oshibori.001",
+      "relativePath": "Meshes/oshibori_big.005.0.ply"
+    },
+    {
+      "name": "oshibori_middle.005",
+      "type": "ply",
+      "material": "oshibori.001",
+      "relativePath": "Meshes/oshibori_middle.005.0.ply"
+    },
+    {
+      "name": "oshibori_small.005",
+      "type": "ply",
+      "material": "oshibori.001",
+      "relativePath": "Meshes/oshibori_small.005.0.ply"
+    },
+    {
+      "name": "towel rail",
+      "type": "ply",
+      "material": "Chrome",
+      "relativePath": "Meshes/towel rail.0.ply"
+    },
+    {
+      "name": "basket1",
+      "type": "ply",
+      "material": "_",
+      "relativePath": "Meshes/basket1.0.ply"
+    },
+    {
+      "name": "basket2",
+      "type": "ply",
+      "material": "_",
+      "relativePath": "Meshes/basket2.0.ply"
+    },
+    {
+      "name": "PlantSucculentEcheveria001",
+      "type": "ply",
+      "material": "PlantSucculentEcheveria001_2K.001",
+      "relativePath": "Meshes/PlantSucculentEcheveria001.0.ply"
+    },
+    {
+      "name": "PlantSucculentEcheveria001_pot",
+      "type": "ply",
+      "material": "ceramic",
+      "relativePath": "Meshes/PlantSucculentEcheveria001_pot.0.ply"
+    },
+    {
+      "name": "Cone002",
+      "type": "ply",
+      "material": "ceramic",
+      "relativePath": "Meshes/Cone002.0.ply"
+    },
+    {
+      "name": "Cylinder016",
+      "type": "ply",
+      "material": "wire_088144225",
+      "relativePath": "Meshes/Cylinder016.0.ply"
+    },
+    {
+      "name": "Cylinder016.001",
+      "type": "ply",
+      "material": "wire_088144225",
+      "relativePath": "Meshes/Cylinder016.001.0.ply"
+    },
+    {
+      "name": "Cylinder017",
+      "type": "ply",
+      "material": "wire_088144225",
+      "relativePath": "Meshes/Cylinder017.0.ply"
+    },
+    {
+      "name": "Cylinder018",
+      "type": "ply",
+      "material": "wire_088144225",
+      "relativePath": "Meshes/Cylinder018.0.ply"
+    },
+    {
+      "name": "Cylinder018.001",
+      "type": "ply",
+      "material": "Material.002",
+      "relativePath": "Meshes/Cylinder018.001.0.ply"
+    },
+    {
+      "name": "Cylinder020",
+      "type": "ply",
+      "material": "wire_088144225",
+      "relativePath": "Meshes/Cylinder020.0.ply"
+    },
+    {
+      "name": "Cylinder020.001",
+      "type": "ply",
+      "material": "wire_088144225",
+      "relativePath": "Meshes/Cylinder020.001.0.ply"
+    },
+    {
+      "name": "Cylinder021",
+      "type": "ply",
+      "material": "wire_088144225",
+      "relativePath": "Meshes/Cylinder021.0.ply"
+    },
+    {
+      "name": "toothbrush1",
+      "type": "ply",
+      "material": "toothbrush.002",
+      "relativePath": "Meshes/toothbrush1.0.ply"
+    },
+    {
+      "name": "toothbrush2",
+      "type": "ply",
+      "material": "toothbrush.001",
+      "relativePath": "Meshes/toothbrush2.0.ply"
+    },
+    {
+      "name": "toothbrush3",
+      "type": "ply",
+      "material": "toothbrush.003",
+      "relativePath": "Meshes/toothbrush3.0.ply"
+    },
+    {
+      "name": "Plane",
+      "type": "ply",
+      "material": "Material.005",
+      "relativePath": "Meshes/Plane.0.ply"
+    },
+    {
+      "name": "base.001",
+      "type": "ply",
+      "material": "marble white",
+      "relativePath": "Meshes/base.001.0.ply"
+    },
+    {
+      "name": "Circle",
+      "type": "ply",
+      "material": "HANDLE",
+      "relativePath": "Meshes/Circle.0.ply"
+    },
+    {
+      "name": "Circle.001",
+      "type": "ply",
+      "material": "HANDLE",
+      "relativePath": "Meshes/Circle.001.0.ply"
+    },
+    {
+      "name": "Cylinder",
+      "type": "ply",
+      "material": "HANDLE",
+      "relativePath": "Meshes/Cylinder.0.ply"
+    },
+    {
+      "name": "Circle.002",
+      "type": "ply",
+      "material": "HANDLE",
+      "relativePath": "Meshes/Circle.002.0.ply"
+    },
+    {
+      "name": "switch",
+      "type": "ply",
+      "material": "WhitePlastic",
+      "relativePath": "Meshes/switch.0.ply"
+    },
+    {
+      "name": "SingleDeepOutletBlackBody",
+      "type": "ply",
+      "material": "BlackHole",
+      "relativePath": "Meshes/SingleDeepOutletBlackBody.0.ply"
+    },
+    {
+      "name": "SingleDeepOutletBody",
+      "type": "ply",
+      "material": "WhitePlastic",
+      "relativePath": "Meshes/SingleDeepOutletBody.0.ply"
+    },
+    {
+      "name": "SingleDeepOutletClamps",
+      "type": "ply",
+      "material": "Brass",
+      "relativePath": "Meshes/SingleDeepOutletClamps.0.ply"
+    },
+    {
+      "name": "SingleDeepOutletScrew",
+      "type": "ply",
+      "material": "Brass",
+      "relativePath": "Meshes/SingleDeepOutletScrew.0.ply"
+    },
+    {
+      "name": "Hairbrush Body",
+      "type": "ply",
+      "material": "Black - Semi Gloss",
+      "relativePath": "Meshes/Hairbrush Body.0.ply"
+    },
+    {
+      "name": "Bristles",
+      "type": "ply",
+      "material": "Black - Semi Gloss",
+      "relativePath": "Meshes/Bristles.0.ply"
+    },
+    {
+      "name": "Sphere",
+      "type": "ply",
+      "material": "Red",
+      "relativePath": "Meshes/Sphere.0.ply"
+    },
+    {
+      "name": "Plane.004",
+      "type": "ply",
+      "material": "KeyLamp",
+      "relativePath": "Meshes/Plane.004.0.ply"
+    },
+    {
+      "name": "Plane.005",
+      "type": "ply",
+      "material": "FillLight",
+      "relativePath": "Meshes/Plane.005.0.ply"
+    }
+  ]
+}
