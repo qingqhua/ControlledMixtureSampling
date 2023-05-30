@@ -1,0 +1,10 @@
+VeachMIS
+by Pascal Grittmann
+
+Modeled after the iconic test scene from the paper
+"Optimally Combining Sampling Techniques for Monte Carlo Rendering"
+by Eric Veach and Leonidas Guibas
+
+Released under
+CC0
+https://creativecommons.org/publicdomain/zero/1.0/
