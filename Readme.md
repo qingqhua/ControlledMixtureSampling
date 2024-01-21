@@ -32,8 +32,6 @@ Below shows an equal-time result of ours in the setting of different grid resolu
 ## Media
 
 ### Fast Forward Video
-
-https://github.com/qingqhua/ControlledMixtureSampling/raw/d6b522e6c222a46509afc712426e5b161d9e4ce8/FastForward.mov
-
+https://github.com/qingqhua/ControlledMixtureSampling/assets/22607138/4f453183-5a81-480f-94ae-a9d7516212d7
 ### Slides
 [Presentation in Mandrain with slides in English](https://www.bilibili.com/video/BV1HN4y1h7C6)
